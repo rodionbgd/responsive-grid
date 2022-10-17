@@ -23,7 +23,7 @@ export default class ResponsiveGrid {
                     <div class="card">
                         <div>
                             <div class="img-size" data-id="img-size"></div>
-                            <img src="/assets/images/250x250.jpg" alt="bg">
+                            <img src="./assets/images/250x250.jpg" alt="bg">
                         </div>
                         <div class="card-details">
                             <div class="card-description">
