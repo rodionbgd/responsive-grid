@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: dashed solid;
+}
+
+table + table {
+  margin-top: 1rem;
+}
+
+td {
+  padding: 5px 15px;
+  text-align: left;
+}
+
+td > div {
+  display: flex;
+  //height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+table, th, td {
+  border: 1px dashed #00000080;
+}
+
+.img-size {
+  position: absolute;
+  transform: translate(50%, 50%);
+  color: #000;
+  font-size: 1.5rem;
+  opacity: 1;
+  background: white;
+  z-index: 100;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
